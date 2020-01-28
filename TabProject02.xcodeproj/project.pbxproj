@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EB441E719FBEF3A0B49F9A9 /* Pods_TabProject02.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B93C926C523EF3A988ADCEAE /* Pods_TabProject02.framework */; };
 		8D03752A23DEF4FE00D0C574 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D03752923DEF4FE00D0C574 /* AppDelegate.swift */; };
 		8D03752C23DEF4FE00D0C574 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D03752B23DEF4FE00D0C574 /* SceneDelegate.swift */; };
 		8D03752E23DEF4FE00D0C574 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D03752D23DEF4FE00D0C574 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4BC32C45070916EF1146BFD0 /* Pods-TabProject02.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabProject02.debug.xcconfig"; path = "Target Support Files/Pods-TabProject02/Pods-TabProject02.debug.xcconfig"; sourceTree = "<group>"; };
 		8D03752623DEF4FE00D0C574 /* TabProject02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TabProject02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D03752923DEF4FE00D0C574 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D03752B23DEF4FE00D0C574 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +26,8 @@
 		8D03753223DEF4FF00D0C574 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D03753523DEF4FF00D0C574 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D03753723DEF4FF00D0C574 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B93C926C523EF3A988ADCEAE /* Pods_TabProject02.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabProject02.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F5230C60E043B8A9BD1EAB /* Pods-TabProject02.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TabProject02.release.xcconfig"; path = "Target Support Files/Pods-TabProject02/Pods-TabProject02.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EB441E719FBEF3A0B49F9A9 /* Pods_TabProject02.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		512F78CC233A257EAEA8B433 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BC32C45070916EF1146BFD0 /* Pods-TabProject02.debug.xcconfig */,
+				F6F5230C60E043B8A9BD1EAB /* Pods-TabProject02.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		8D03751D23DEF4FE00D0C574 = {
 			isa = PBXGroup;
 			children = (
 				8D03752823DEF4FE00D0C574 /* TabProject02 */,
 				8D03752723DEF4FE00D0C574 /* Products */,
+				512F78CC233A257EAEA8B433 /* Pods */,
+				9F1C80F6BD643A115F7F9451 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +84,14 @@
 			path = TabProject02;
 			sourceTree = "<group>";
 		};
+		9F1C80F6BD643A115F7F9451 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B93C926C523EF3A988ADCEAE /* Pods_TabProject02.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8D03753A23DEF4FF00D0C574 /* Build configuration list for PBXNativeTarget "TabProject02" */;
 			buildPhases = (
+				D7442F1E4EE66450A6E2966F /* [CP] Check Pods Manifest.lock */,
 				8D03752223DEF4FE00D0C574 /* Sources */,
 				8D03752323DEF4FE00D0C574 /* Frameworks */,
 				8D03752423DEF4FE00D0C574 /* Resources */,
+				F0D275992AA7DD540FDCFEEB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D7442F1E4EE66450A6E2966F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TabProject02-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0D275992AA7DD540FDCFEEB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TabProject02/Pods-TabProject02-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TabProject02/Pods-TabProject02-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TabProject02/Pods-TabProject02-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8D03752223DEF4FE00D0C574 /* Sources */ = {
@@ -282,6 +351,7 @@
 		};
 		8D03753B23DEF4FF00D0C574 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BC32C45070916EF1146BFD0 /* Pods-TabProject02.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +370,7 @@
 		};
 		8D03753C23DEF4FF00D0C574 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6F5230C60E043B8A9BD1EAB /* Pods-TabProject02.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
