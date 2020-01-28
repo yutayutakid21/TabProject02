@@ -31,7 +31,7 @@
 
 /* Begin PBXFileReference section */
 		2A4D265772584FF0A0A50E21F99B3CA2 /* Pods-TabProject02-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TabProject02-dummy.m"; sourceTree = "<group>"; };
-		2E4F69E48F803C456BD124861821F14B /* Pods_TabProject02.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TabProject02.framework; path = "Pods-TabProject02.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E4F69E48F803C456BD124861821F14B /* Pods_TabProject02.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TabProject02.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		3EBE34FAF7ADC27F56A2CBF834C6820C /* JBTabBarAnimation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JBTabBarAnimation-dummy.m"; sourceTree = "<group>"; };
 		40E6B874F1E2737401BC4E03356FF2E5 /* Pods-TabProject02-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TabProject02-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -39,7 +39,7 @@
 		451AD76BA48E18547BAF2A610A9E03F9 /* CircleLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CircleLayer.swift; path = JBTabBarAnimation/Classes/CircleLayer.swift; sourceTree = "<group>"; };
 		4864CDEE1AE87304DC9704851B9D5797 /* Pods-TabProject02-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TabProject02-umbrella.h"; sourceTree = "<group>"; };
 		4E3FB3815E55DAD051CD8E7E1A162FC4 /* Pods-TabProject02-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TabProject02-frameworks.sh"; sourceTree = "<group>"; };
-		571E8C3D1D261FAF79493F47A3761818 /* JBTabBarAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JBTabBarAnimation.framework; path = JBTabBarAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		571E8C3D1D261FAF79493F47A3761818 /* JBTabBarAnimation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JBTabBarAnimation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		608C619D7EE33DF5D6BF336FF6AF9442 /* Pods-TabProject02.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TabProject02.modulemap"; sourceTree = "<group>"; };
 		70A6E73A82AE16E61386F59244489147 /* JBTabBarAnimation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JBTabBarAnimation.xcconfig; sourceTree = "<group>"; };
 		74C51F2E5D415C0387D62219F7531FB5 /* JBTabBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JBTabBar.swift; path = JBTabBarAnimation/Classes/JBTabBar.swift; sourceTree = "<group>"; };
@@ -47,7 +47,7 @@
 		7FFF79A755E9A9B72D2E049412D1CC2B /* Pods-TabProject02.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TabProject02.release.xcconfig"; sourceTree = "<group>"; };
 		8A2E4492F762C08F7506F3B8D64A0828 /* JBTabBarAnimation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JBTabBarAnimation-prefix.pch"; sourceTree = "<group>"; };
 		93BE96D5E4BBBFBDA7EAD5DFA0E0D6BD /* Pods-TabProject02-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TabProject02-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BA61CFA1FD2820D6F01DEA582F827759 /* JBTabBarAnimation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JBTabBarAnimation.modulemap; sourceTree = "<group>"; };
 		CA9E710457566D9DD644EB1D266A783D /* JBTabBarAnimation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JBTabBarAnimation-umbrella.h"; sourceTree = "<group>"; };
 		E994C17B22F154078E986B505DAF5770 /* Pods-TabProject02-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TabProject02-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -159,7 +159,6 @@
 				F2A9DD1B1E3BC4AB91B3861CE730F46D /* JBTabBarController.swift */,
 				31BEA1C2D201E425F945FE71607EEF1B /* Support Files */,
 			);
-			name = JBTabBarAnimation;
 			path = JBTabBarAnimation;
 			sourceTree = "<group>";
 		};
@@ -413,9 +412,10 @@
 				PRODUCT_NAME = JBTabBarAnimation;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -449,9 +449,10 @@
 				PRODUCT_NAME = JBTabBarAnimation;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
