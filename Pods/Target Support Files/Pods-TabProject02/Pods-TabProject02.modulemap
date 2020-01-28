@@ -1,0 +1,6 @@
+framework module Pods_TabProject02 {
+  umbrella header "Pods-TabProject02-umbrella.h"
+
+  export *
+  module * { export * }
+}
