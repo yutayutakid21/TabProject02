@@ -40,11 +40,13 @@ class ViewController: UIViewController {
             }
     }
 
-   
+//   止まらない
         func stop(_ sender: Any) {
                    
                    timer.invalidate()
        
+            
+            
    
     }
      
