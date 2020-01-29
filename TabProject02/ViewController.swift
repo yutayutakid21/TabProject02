@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import JBTabBarAnimation
 
 class ViewController: UIViewController {
 
