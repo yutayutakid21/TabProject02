@@ -10,6 +10,13 @@ import UIKit
 import JBTabBarAnimation
 
 class ViewController: UIViewController {
+    
+    /*
+     
+     ｋａｄａｉ
+     
+     */
+    
     @IBOutlet weak var imageView: UIImageView!
     var imageArray = ["0","1","2","3","4","5"]
     var count = Int()
